@@ -1,6 +1,6 @@
 //
-//  PracticePintarestUITests.swift
-//  PracticePintarestUITests
+//  PracticePinterestUITests.swift
+//  PracticePinterestUITests
 //
 //  Created by NishiokaKohei on 2016/11/19.
 //  Copyright © 2016年 Kohey. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class PracticePintarestUITests: XCTestCase {
+class PracticePinterestUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

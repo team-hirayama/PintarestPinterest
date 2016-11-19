@@ -13,7 +13,7 @@
 		E14177221DE00E550047731E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14177211DE00E550047731E /* Assets.xcassets */; };
 		E14177251DE00E550047731E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14177231DE00E550047731E /* LaunchScreen.storyboard */; };
 		E14177301DE00E550047731E /* PracticePintarestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141772F1DE00E550047731E /* PracticePintarestTests.swift */; };
-		E141773B1DE00E550047731E /* PracticePintarestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141773A1DE00E550047731E /* PracticePintarestUITests.swift */; };
+		E141773B1DE00E550047731E /* PracticePinterestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141773A1DE00E550047731E /* PracticePinterestUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,18 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E14177171DE00E550047731E /* PracticePintarest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticePintarest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14177171DE00E550047731E /* PracticePinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticePinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E141771A1DE00E550047731E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E141771C1DE00E550047731E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E141771F1DE00E550047731E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E14177211DE00E550047731E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E14177241DE00E550047731E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E14177261DE00E550047731E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E141772B1DE00E550047731E /* PracticePintarestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticePintarestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E141772B1DE00E550047731E /* PracticePinterest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticePinterest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E141772F1DE00E550047731E /* PracticePintarestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePintarestTests.swift; sourceTree = "<group>"; };
 		E14177311DE00E550047731E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E14177361DE00E550047731E /* PracticePintarestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticePintarestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E141773A1DE00E550047731E /* PracticePintarestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePintarestUITests.swift; sourceTree = "<group>"; };
+		E14177361DE00E550047731E /* PracticePinterest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticePinterest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E141773A1DE00E550047731E /* PracticePinterestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePinterestUITests.swift; sourceTree = "<group>"; };
 		E141773C1DE00E550047731E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,9 +77,9 @@
 		E141770E1DE00E550047731E = {
 			isa = PBXGroup;
 			children = (
-				E14177191DE00E550047731E /* PracticePintarest */,
-				E141772E1DE00E550047731E /* PracticePintarestTests */,
-				E14177391DE00E550047731E /* PracticePintarestUITests */,
+				E14177191DE00E550047731E /* PracticePinterest */,
+				E141772E1DE00E550047731E /* PracticePinterestTests */,
+				E14177391DE00E550047731E /* PracticePinterestUITests */,
 				E14177181DE00E550047731E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		E14177181DE00E550047731E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E14177171DE00E550047731E /* PracticePintarest.app */,
-				E141772B1DE00E550047731E /* PracticePintarestTests.xctest */,
-				E14177361DE00E550047731E /* PracticePintarestUITests.xctest */,
+				E14177171DE00E550047731E /* PracticePinterest.app */,
+				E141772B1DE00E550047731E /* PracticePinterest.xctest */,
+				E14177361DE00E550047731E /* PracticePinterest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E14177191DE00E550047731E /* PracticePintarest */ = {
+		E14177191DE00E550047731E /* PracticePinterest */ = {
 			isa = PBXGroup;
 			children = (
 				E141771A1DE00E550047731E /* AppDelegate.swift */,
@@ -104,33 +104,36 @@
 				E14177231DE00E550047731E /* LaunchScreen.storyboard */,
 				E14177261DE00E550047731E /* Info.plist */,
 			);
+			name = PracticePinterest;
 			path = PracticePintarest;
 			sourceTree = "<group>";
 		};
-		E141772E1DE00E550047731E /* PracticePintarestTests */ = {
+		E141772E1DE00E550047731E /* PracticePinterestTests */ = {
 			isa = PBXGroup;
 			children = (
 				E141772F1DE00E550047731E /* PracticePintarestTests.swift */,
 				E14177311DE00E550047731E /* Info.plist */,
 			);
+			name = PracticePinterestTests;
 			path = PracticePintarestTests;
 			sourceTree = "<group>";
 		};
-		E14177391DE00E550047731E /* PracticePintarestUITests */ = {
+		E14177391DE00E550047731E /* PracticePinterestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E141773A1DE00E550047731E /* PracticePintarestUITests.swift */,
+				E141773A1DE00E550047731E /* PracticePinterestUITests.swift */,
 				E141773C1DE00E550047731E /* Info.plist */,
 			);
+			name = PracticePinterestUITests;
 			path = PracticePintarestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E14177161DE00E550047731E /* PracticePintarest */ = {
+		E14177161DE00E550047731E /* PracticePinterest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E141773F1DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePintarest" */;
+			buildConfigurationList = E141773F1DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePinterest" */;
 			buildPhases = (
 				E14177131DE00E550047731E /* Sources */,
 				E14177141DE00E550047731E /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = PracticePintarest;
+			name = PracticePinterest;
 			productName = PracticePintarest;
-			productReference = E14177171DE00E550047731E /* PracticePintarest.app */;
+			productReference = E14177171DE00E550047731E /* PracticePinterest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E141772A1DE00E550047731E /* PracticePintarestTests */ = {
+		E141772A1DE00E550047731E /* PracticePinterestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E14177421DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePintarestTests" */;
+			buildConfigurationList = E14177421DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePinterestTests" */;
 			buildPhases = (
 				E14177271DE00E550047731E /* Sources */,
 				E14177281DE00E550047731E /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				E141772D1DE00E550047731E /* PBXTargetDependency */,
 			);
-			name = PracticePintarestTests;
+			name = PracticePinterestTests;
 			productName = PracticePintarestTests;
-			productReference = E141772B1DE00E550047731E /* PracticePintarestTests.xctest */;
+			productReference = E141772B1DE00E550047731E /* PracticePinterest.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E14177351DE00E550047731E /* PracticePintarestUITests */ = {
+		E14177351DE00E550047731E /* PracticePinterestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E14177451DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePintarestUITests" */;
+			buildConfigurationList = E14177451DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePinterestUITests" */;
 			buildPhases = (
 				E14177321DE00E550047731E /* Sources */,
 				E14177331DE00E550047731E /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				E14177381DE00E550047731E /* PBXTargetDependency */,
 			);
-			name = PracticePintarestUITests;
+			name = PracticePinterestUITests;
 			productName = PracticePintarestUITests;
-			productReference = E14177361DE00E550047731E /* PracticePintarestUITests.xctest */;
+			productReference = E14177361DE00E550047731E /* PracticePinterest.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					E14177161DE00E550047731E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9D8UR7H9D4;
 					};
 					E141772A1DE00E550047731E = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -204,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E14177121DE00E550047731E /* Build configuration list for PBXProject "PracticePintarest" */;
+			buildConfigurationList = E14177121DE00E550047731E /* Build configuration list for PBXProject "PracticePinterest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E14177161DE00E550047731E /* PracticePintarest */,
-				E141772A1DE00E550047731E /* PracticePintarestTests */,
-				E14177351DE00E550047731E /* PracticePintarestUITests */,
+				E14177161DE00E550047731E /* PracticePinterest */,
+				E141772A1DE00E550047731E /* PracticePinterestTests */,
+				E14177351DE00E550047731E /* PracticePinterestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E141773B1DE00E550047731E /* PracticePintarestUITests.swift in Sources */,
+				E141773B1DE00E550047731E /* PracticePinterestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		E141772D1DE00E550047731E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E14177161DE00E550047731E /* PracticePintarest */;
+			target = E14177161DE00E550047731E /* PracticePinterest */;
 			targetProxy = E141772C1DE00E550047731E /* PBXContainerItemProxy */;
 		};
 		E14177381DE00E550047731E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E14177161DE00E550047731E /* PracticePintarest */;
+			target = E14177161DE00E550047731E /* PracticePinterest */;
 			targetProxy = E14177371DE00E550047731E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,10 +403,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PracticePintarest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.PracticePintarest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.PracticePinterest;
+				PRODUCT_NAME = PracticePinterest;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +417,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PracticePintarest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.PracticePintarest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.PracticePinterest;
+				PRODUCT_NAME = PracticePinterest;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -424,8 +434,8 @@
 				INFOPLIST_FILE = PracticePintarestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.PracticePintarestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticePintarest.app/PracticePintarest";
+				PRODUCT_NAME = PracticePinterest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticePinterest.app/PracticePinterest";
 			};
 			name = Debug;
 		};
@@ -436,8 +446,8 @@
 				INFOPLIST_FILE = PracticePintarestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.PracticePintarestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticePintarest.app/PracticePintarest";
+				PRODUCT_NAME = PracticePinterest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticePinterest.app/PracticePinterest";
 			};
 			name = Release;
 		};
@@ -447,7 +457,7 @@
 				INFOPLIST_FILE = PracticePintarestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.PracticePintarestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PracticePinterest;
 				TEST_TARGET_NAME = PracticePintarest;
 			};
 			name = Debug;
@@ -458,7 +468,7 @@
 				INFOPLIST_FILE = PracticePintarestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.PracticePintarestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PracticePinterest;
 				TEST_TARGET_NAME = PracticePintarest;
 			};
 			name = Release;
@@ -466,7 +476,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E14177121DE00E550047731E /* Build configuration list for PBXProject "PracticePintarest" */ = {
+		E14177121DE00E550047731E /* Build configuration list for PBXProject "PracticePinterest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E141773D1DE00E550047731E /* Debug */,
@@ -475,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E141773F1DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePintarest" */ = {
+		E141773F1DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePinterest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E14177401DE00E550047731E /* Debug */,
@@ -483,7 +493,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		E14177421DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePintarestTests" */ = {
+		E14177421DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePinterestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E14177431DE00E550047731E /* Debug */,
@@ -491,7 +501,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		E14177451DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePintarestUITests" */ = {
+		E14177451DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePinterestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E14177461DE00E550047731E /* Debug */,

@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import PracticePintarest
+@testable import PracticePinterest
 
-class PracticePintarestTests: XCTestCase {
+class PracticePinterestTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

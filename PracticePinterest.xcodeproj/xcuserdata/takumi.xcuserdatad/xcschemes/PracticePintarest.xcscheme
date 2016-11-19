@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E14177161DE00E550047731E"
-               BuildableName = "PracticePintarest.app"
-               BlueprintName = "PracticePintarest"
-               ReferencedContainer = "container:PracticePintarest.xcodeproj">
+               BuildableName = "PracticePinterest.app"
+               BlueprintName = "PracticePinterest"
+               ReferencedContainer = "container:PracticePinterest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E141772A1DE00E550047731E"
-               BuildableName = "PracticePintarestTests.xctest"
-               BlueprintName = "PracticePintarestTests"
-               ReferencedContainer = "container:PracticePintarest.xcodeproj">
+               BuildableName = "PracticePinterest.xctest"
+               BlueprintName = "PracticePinterestTests"
+               ReferencedContainer = "container:PracticePinterest.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E14177351DE00E550047731E"
-               BuildableName = "PracticePintarestUITests.xctest"
-               BlueprintName = "PracticePintarestUITests"
-               ReferencedContainer = "container:PracticePintarest.xcodeproj">
+               BuildableName = "PracticePinterest.xctest"
+               BlueprintName = "PracticePinterestUITests"
+               ReferencedContainer = "container:PracticePinterest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E14177161DE00E550047731E"
-            BuildableName = "PracticePintarest.app"
-            BlueprintName = "PracticePintarest"
-            ReferencedContainer = "container:PracticePintarest.xcodeproj">
+            BuildableName = "PracticePinterest.app"
+            BlueprintName = "PracticePinterest"
+            ReferencedContainer = "container:PracticePinterest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E14177161DE00E550047731E"
-            BuildableName = "PracticePintarest.app"
-            BlueprintName = "PracticePintarest"
-            ReferencedContainer = "container:PracticePintarest.xcodeproj">
+            BuildableName = "PracticePinterest.app"
+            BlueprintName = "PracticePinterest"
+            ReferencedContainer = "container:PracticePinterest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E14177161DE00E550047731E"
-            BuildableName = "PracticePintarest.app"
-            BlueprintName = "PracticePintarest"
-            ReferencedContainer = "container:PracticePintarest.xcodeproj">
+            BuildableName = "PracticePinterest.app"
+            BlueprintName = "PracticePinterest"
+            ReferencedContainer = "container:PracticePinterest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
