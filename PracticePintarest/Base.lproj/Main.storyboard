@@ -15,8 +15,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewLayout key="collectionViewLayout" id="QyS-Hp-4hy" customClass="PinterestLayout" customModule="PracticePinterest"/>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AnnotatedPhotoCell" id="cZT-DX-y4X" customClass="AnnotatedPhotoCell" customModule="PracticePinterest">
-                                <rect key="frame" x="0.0" y="0.0" width="310" height="278"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="TopLeft" reuseIdentifier="AnnotatedPhotoCell" id="cZT-DX-y4X" customClass="AnnotatedPhotoCell" customModule="PracticePinterest">
+                                <rect key="frame" x="145" y="0.0" width="310" height="278"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="310" height="278"/>
@@ -84,18 +84,9 @@
                                 <connections>
                                     <outlet property="captionLabel" destination="4vE-u7-KrC" id="rkt-cf-iyu"/>
                                     <outlet property="commentLabel" destination="REM-yf-fcU" id="AYt-yI-Vlo"/>
-                                    <outlet property="imageView" destination="aGc-Cf-Wq3" id="f4a-if-iOt"/>
-                                    <outlet property="imageViewHeightLayoutConstraint" destination="Era-BE-HqD" id="Lad-LK-lNW"/>
+                                    <outlet property="imageView" destination="zvS-hy-RmI" id="hcU-Se-5YS"/>
+                                    <outlet property="imageViewHeightLayoutConstraint" destination="Era-BE-HqD" id="a63-Uj-rLI"/>
                                 </connections>
-                            </collectionViewCell>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AnnotatedPhotoCell" id="xYd-1n-b51">
-                                <rect key="frame" x="320" y="114" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </view>
                             </collectionViewCell>
                         </cells>
                         <connections>
