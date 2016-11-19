@@ -21,6 +21,7 @@
 		E141775B1DE019E00047731E /* AnnotatedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141775A1DE019E00047731E /* AnnotatedPhotoCell.swift */; };
 		E141775D1DE01B7C0047731E /* PhotoBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141775C1DE01B7C0047731E /* PhotoBoardView.swift */; };
 		E14177601DE01CA00047731E /* ZoomedPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141775F1DE01CA00047731E /* ZoomedPhotoViewController.swift */; };
+		E14177641DE01F6E0047731E /* UIImage+Decompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14177631DE01F6E0047731E /* UIImage+Decompression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E141775A1DE019E00047731E /* AnnotatedPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotatedPhotoCell.swift; sourceTree = "<group>"; };
 		E141775C1DE01B7C0047731E /* PhotoBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBoardView.swift; sourceTree = "<group>"; };
 		E141775F1DE01CA00047731E /* ZoomedPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomedPhotoViewController.swift; sourceTree = "<group>"; };
+		E14177631DE01F6E0047731E /* UIImage+Decompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Decompression.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 		E141775E1DE01C620047731E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E14177631DE01F6E0047731E /* UIImage+Decompression.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				E14177591DE013700047731E /* Photo.swift in Sources */,
 				E14177571DE012E50047731E /* PinterestLayout.swift in Sources */,
 				E141771D1DE00E550047731E /* PhotoCollectionViewController.swift in Sources */,
+				E14177641DE01F6E0047731E /* UIImage+Decompression.swift in Sources */,
 				E141771B1DE00E550047731E /* AppDelegate.swift in Sources */,
 				E141775B1DE019E00047731E /* AnnotatedPhotoCell.swift in Sources */,
 			);

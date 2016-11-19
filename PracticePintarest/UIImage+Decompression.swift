@@ -6,4 +6,16 @@
 //  Copyright © 2016年 Kohey. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIImage {
+    
+    var decompressedImage: UIImage {
+        UIGraphicsBeginImageContextWithOptions(size, true, 0)
+        drawAtPoint(CGPointZero)
+        let decompressedImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return decompressedImage
+    }
+
+}
