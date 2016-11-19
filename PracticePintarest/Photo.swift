@@ -12,18 +12,20 @@ class Photo {
 
     // MARK:- Class Method
     class func allPhotos() -> [Photo]? {
+        
         var photos = [Photo]()
         guard let URL = NSBundle.mainBundle().URLForResource("Photos", withExtension: "plist") else {
             return photos
         }
         
-        if let photosFromPlist = NSArray(contentsOfURL: URL) {
-            for dictionary in photosFromPlist {
-                let photo = Photo(dictionary: dictionary as! NSDictionary)
-                photos.append(photo)
-            }
+        guard let photosFromPlist = NSArray(contentsOfURL: URL) else {
+            return photos
         }
         
+        for dictionary in photosFromPlist {
+            let photo = Photo(dictionary: dictionary as! NSDictionary)
+            photos.append(photo)
+        }
         return photos
     }
 
