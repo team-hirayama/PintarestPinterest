@@ -10,7 +10,7 @@
 		E141771B1DE00E550047731E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141771A1DE00E550047731E /* AppDelegate.swift */; };
 		E141771D1DE00E550047731E /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141771C1DE00E550047731E /* PhotoCollectionViewController.swift */; };
 		E14177201DE00E550047731E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E141771E1DE00E550047731E /* Main.storyboard */; };
-		E14177221DE00E550047731E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14177211DE00E550047731E /* Assets.xcassets */; };
+		E14177221DE00E550047731E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14177211DE00E550047731E /* Images.xcassets */; };
 		E14177251DE00E550047731E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14177231DE00E550047731E /* LaunchScreen.storyboard */; };
 		E14177301DE00E550047731E /* PracticePintarestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141772F1DE00E550047731E /* PracticePintarestTests.swift */; };
 		E141773B1DE00E550047731E /* PracticePinterestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141773A1DE00E550047731E /* PracticePinterestUITests.swift */; };
@@ -46,7 +46,7 @@
 		E141771A1DE00E550047731E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E141771C1DE00E550047731E /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
 		E141771F1DE00E550047731E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E14177211DE00E550047731E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E14177211DE00E550047731E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E14177241DE00E550047731E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E14177261DE00E550047731E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E141772B1DE00E550047731E /* PracticePinterest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticePinterest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +56,7 @@
 		E141773A1DE00E550047731E /* PracticePinterestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePinterestUITests.swift; sourceTree = "<group>"; };
 		E141773C1DE00E550047731E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E14177521DE010D10047731E /* Photos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Photos.xcassets; sourceTree = "<group>"; };
-		E14177541DE011420047731E /* photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = photos.plist; path = ../../../../../Downloads/Resource/photos.plist; sourceTree = "<group>"; };
+		E14177541DE011420047731E /* photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = photos.plist; sourceTree = "<group>"; };
 		E14177561DE012E50047731E /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		E14177581DE013700047731E /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		E141775A1DE019E00047731E /* AnnotatedPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotatedPhotoCell.swift; sourceTree = "<group>"; };
@@ -202,7 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				E14177541DE011420047731E /* photos.plist */,
-				E14177211DE00E550047731E /* Assets.xcassets */,
+				E14177211DE00E550047731E /* Images.xcassets */,
 				E14177521DE010D10047731E /* Photos.xcassets */,
 			);
 			name = Assets;
@@ -331,7 +331,7 @@
 			files = (
 				E14177551DE011420047731E /* photos.plist in Resources */,
 				E14177251DE00E550047731E /* LaunchScreen.storyboard in Resources */,
-				E14177221DE00E550047731E /* Assets.xcassets in Resources */,
+				E14177221DE00E550047731E /* Images.xcassets in Resources */,
 				E14177201DE00E550047731E /* Main.storyboard in Resources */,
 				E14177531DE010D10047731E /* Photos.xcassets in Resources */,
 			);
@@ -596,6 +596,7 @@
 				E14177411DE00E550047731E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E14177421DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePinterestTests" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +605,7 @@
 				E14177441DE00E550047731E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E14177451DE00E550047731E /* Build configuration list for PBXNativeTarget "PracticePinterestUITests" */ = {
 			isa = XCConfigurationList;
@@ -612,6 +614,7 @@
 				E14177471DE00E550047731E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
