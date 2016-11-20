@@ -18,7 +18,6 @@ class Photo {
             return photos
         }
         
-//        guard let photosFromPlist = NSArray(contentsOfURL: URL) else {
         guard let photoFromPlist = NSDictionary(contentsOfURL: URL)?.valueForKey("photos") as? NSArray else {
             return photos
         }
