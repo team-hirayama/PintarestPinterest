@@ -14,15 +14,16 @@ class Photo {
     class func allPhotos() -> [Photo]? {
         
         var photos = [Photo]()
-        guard let URL = NSBundle.mainBundle().URLForResource("Photos", withExtension: "plist") else {
+        guard let URL = NSBundle.mainBundle().URLForResource("photos", withExtension: "plist") else {
             return photos
         }
         
-        guard let photosFromPlist = NSArray(contentsOfURL: URL) else {
+//        guard let photosFromPlist = NSArray(contentsOfURL: URL) else {
+        guard let photoFromPlist = NSDictionary(contentsOfURL: URL)?.valueForKey("photos") as? NSArray else {
             return photos
         }
         
-        for dictionary in photosFromPlist {
+        for dictionary in photoFromPlist {
             let photo = Photo(dictionary: dictionary as! NSDictionary)
             photos.append(photo)
         }
@@ -42,11 +43,10 @@ class Photo {
 
     // MARK:- Instance Method
     convenience init(dictionary: NSDictionary) {
-        let caption = dictionary["Caption"] as? String
-        let comment = dictionary["Comment"] as? String
-        let photo = dictionary["Photo"] as? String
+        let caption = dictionary["caption"] as? String
+        let comment = dictionary["comment"] as? String
+        let photo = dictionary["image"] as? String
         let image = UIImage(named: photo!)?.decompressedImage
-        
         
         self.init(caption: caption!, comment: comment!, image: image!)
     }
